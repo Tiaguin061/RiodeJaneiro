@@ -25,12 +25,17 @@ ___
 
 ___
 
+<h3 align="center">
+  <img src="./public/assets/printsite2.png" width="300" heigth="300">
+</h3>
+
+___
+
 ## :information_source: Sobre
 
 Estou fazendo este site, na qual mostro várias coisas do estado do Rio de Janeiro, falarei da história, locais mais conhecidos e etc. Em algumas partes não colocarei a explicação completa.
 
 ___
-
 
 ## :interrobang: Motivo
 
@@ -38,13 +43,11 @@ Quero treinar meus conhecimentos nas linguagens html, css, javascript e NodeJs e
 
 ___
 
-
 ## :seedling: Requisitos Mínimos
 
 NodeJs usando npm com express.
 
 ___
-
 
 ## :rocket: Tecnologias Utilizadas 
 
@@ -69,11 +72,8 @@ ___
 
 ## :iphone: Minhas redes Sociais
 
-
 <h3 align="center">
 
   <a href="https://www.linkedin.com/in/tiagogoncalves200428/">Linkedin</a>
   <a href="https://www.instagram.com/tg001_xx/?hl=pt-br">Instagram</a>
 </h3>
-
-___
