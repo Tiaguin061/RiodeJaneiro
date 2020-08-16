@@ -1,0 +1,188 @@
+/* aboutRj - sobre rio 
+discoverypt - desco. pt
+*/
+
+/* Legend site */
+
+@media (max-width: 320px) {
+    .header {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .modify-button-legend {
+        width: 100vw;
+    }
+}
+
+
+.legend-button {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: start;
+    max-width: 100vw;
+}
+
+.button-edit {
+    display: flex;
+    justify-content: start;
+    max-width: 100vw;
+    width: 90vw;
+}
+
+.see_caption {
+    cursor: pointer;
+    transition: 0.6s;
+}
+
+.modify-button-legend {
+    padding: 1rem;
+    background: linear-gradient(to right, #4aa4ce, #04aaf6);
+    color: white;
+    border-radius: 1rem;
+    margin: 2rem 0 1rem;
+    width: 32vw;
+}
+
+
+.modify-button-legend:hover {
+    filter: brightness(90%);
+    box-shadow: 0.1rem 0 0.3rem #0080bb;
+}
+
+.legend-button .historyparagraph {
+    margin: 1rem 0 0;
+    text-align: justify;
+}
+
+#add_legend {
+    width: 90vw;
+    display: none;
+    flex-direction: column;
+}
+
+.no_legend {
+    margin: 1rem 0 0;
+    transition: 0.6s;
+    cursor: pointer;
+    background: linear-gradient(to right, #4aa4ce, #04aaf6);
+}
+
+/* desco. pt */
+.discoverypt h1 {
+    max-width: 300px;
+}
+
+.discoverypt h1::after {
+    width: 30%;
+    height: 2px;
+    bottom: -7px;
+}
+
+/* Class modificadoras*/
+.section-content .historydiv h1 {
+    margin: 3rem 0 1rem;
+    position: relative;
+    max-width: 90%;
+    font-size: 1.6rem;
+}
+
+.historydiv h1::after {
+    content: "";
+    width: 50%;
+    height:2px;
+    left: 0;
+    bottom: -2px;
+    position: absolute;
+    background: black;
+}
+
+.historydiv h1:hover::after {
+    width: 70%;
+    transition: width 400ms ease-in-out ;
+}
+
+.historydiv {
+    width: 90vw;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.historyimg {
+    max-width: 100%;
+    border-radius: 1rem 1rem 0 0;
+    width: 500px;
+    height: 300px;
+    border: 2px solid #0080bb;
+}
+
+.historyparagraph {
+    margin: 1rem auto 2rem;
+    max-width: 400px;
+    text-align: justify;
+    font: 300 1.1rem Roboto, sans-serif;
+    line-height: 1.4rem;
+    text-indent: 1.1rem;
+}
+
+.historyparagraph a {
+    color: #0080bb;
+}
+
+.historyparagraph a:hover {
+    text-decoration: underline;
+}
+
+/* Prais */
+/* Button */
+.more-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    flex-direction: column;
+}
+
+.modify {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 80%;
+    margin: 0.5rem;
+    padding: 1.4rem;
+    border-radius: 1.4rem;
+
+    font: 500 1.4rem Roboto;
+    cursor: pointer;
+    transition: 0.5s;
+    color: White;
+    background: linear-gradient(to left, #0080bb, #77d4ff);
+}
+
+.modify i {
+    margin-left: 0.6rem;
+}
+
+.modify:hover {
+    filter: brightness(90%);
+    box-shadow: 0.1rem 0 0.3rem #0080bb;
+}
+
+/* More-button novisibility */
+.beach_novisibility,
+#less-beach {
+    display: none;
+}
+
+.linha .historyparagraph {
+    border-bottom: 1px solid #0080bb;
+    max-width: 100%;
+    text-align: center;
+    width: 60%;
+    margin: 0 auto 1rem;
+}
