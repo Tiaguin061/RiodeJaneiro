@@ -7,13 +7,14 @@
     <link rel="stylesheet" href="/styles/main.css">
     <link rel="stylesheet" href="/styles/menu.css">
     <link rel="stylesheet" href="/styles/body.css">
+    <link rel="stylesheet" href="/styles/footer.css">
 
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
 
     <script src="https://kit.fontawesome.com/a71e486fc8.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <header class="header">
+    <header class="header" id="home">
         <img src="/assets/logo.png" alt="">
 
         <!-- mobile -->
@@ -21,14 +22,16 @@
             <i class="fas fa-bars"></i>
         </button>
             
-            <nav id="menu" class="nav-bar">
+        <nav id="menu" class="nav-bar">
             <div class="btn-close">
                 <a href="#"> <i class='fa fa-times'></i> </a>
             </div>
-            <ul>
-                <li><a href="#">Sobre</a></li>
-                <li><a href="#">Praias</a></li>
-                <li><a href="#">Turismo</a></li>
+            <ul id="nomodal">
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#history">A história</a></li>
+                <li><a href="#beach">Praias</a></li>
+                <li><a href="#cultura">Cultura</a></li>
+                <li><a href="#museus">Museus</a></li>
             </ul>
         </nav>
     </header>
@@ -49,9 +52,13 @@
             </button>
         </div>
     </div>
+    <!-- Button fixo para voltar ao inicio -->
+    <div id="divtobackhome">
+        <a href="#home" id="toBackHome"><i class="fas fa-angle-double-up"></i></a>
+    </div>
 
     <!-- History RJ -->
-    <section class="section-content">
+    <section class="section-content" id="about">
         <div class="aboutRj historydiv">
             <h1>
                 Como é o Rio
@@ -64,7 +71,8 @@
             </p>
         </div>
 
-        <div class="discoverypt historydiv">
+
+        <div class="discoverypt historydiv" id="history">
             <h1>A descoberta dos Portugueses</h1>
             <img class="historyimg" src="/assets/lustrativapt.jpg" alt="">
             
@@ -91,13 +99,14 @@
             <img class="historyimg" src="/assets/plataformas.png" alt="">
             <small>Imagem de Plataforma de petróleo/RJ</small>
             <p class="historyparagraph">
-                O Rio de Janeiro apresenta a segunda maior economia brasileira, com 11% de participação, ficando atrás de São Paulo. Com um parque industrial diversificado e com a indústria do turismo, o Município do Rio de Janeiro, conhecida pela Cidade Maravilhosoa, é um dos maiores destinos de turismo estrangeiros e domésticos do país.
+                O Rio de Janeiro apresenta a segunda maior economia brasileira, com 11% de participação, ficando atrás de São Paulo. <br> 
+                &nbsp; Com um parque industrial diversificado e com a indústria do turismo, o Município do Rio de Janeiro, conhecida pela Cidade Maravilhosoa, é um dos maiores destinos de turismo estrangeiros e domésticos do país.
             </p>
         </div>
     </section>    
 
     <!-- beach Rj -->
-    <section class="section-content">
+    <section class="section-content" id="beach">
         <div class="beach historydiv">
             <h1>Algumas praias paradisíacas</h1>
             <img src="/assets/copacabana.jpg" alt="" class="historyimg">
@@ -166,6 +175,58 @@
         <p class="historyparagraph"></p>
     </div>
 
+    <!-- Cultura do Rio -->
+    <section class="section-content" id="cultura">
+        <div class="culturaRj historydiv">
+            <h1>
+                A cultura típica do Rio
+            </h1> 
+            <img class="historyimg" src="/assets/teatromunicipalrj.jpg" alt="">
+            <small>Teatro Municipal - Cinelância/RJ</small>
+            <p class="historyparagraph">
+                O projeto começou a ganhar consistência no final do século XIX, com o empenho do ilustre dramaturgo <a href="#">Arthur Azevedo(1855-1908)</a>, no entanto, lamentavelmente, ele não viveu suficiente para ver a inauguração do Teatro em 14/07/1909. <br>
+                &nbsp; Passado por diversas reformas, a bela obra continua sendo considerado a principal casa de espetáculos do Brasil.
+            </p>
+
+            <img class="historyimg" src="/assets/desfilecarnavalrj.jpg" alt="">
+            <small>Desfile de Carnaval - Sambódromo/RJ</small>
+            <p class="historyparagraph">
+                O <a href="#">Carnaval</a> foi trazido ao Brasil pelos <a href="#">Colonizadores portugueses</a> entre os séculos XVI e XVII que no inicio era uma brincadeira popular. Com o passar do tempo, o carnaval passou a ser manifestado de outras formas, como o baile de máscaras.<br>
+                &nbsp; A partir do século XX, surgiu o <a href="#">Samba</a>, estilo musical influenciado pela cultura africana e do desfile das escolas de samba. Atualmente o carnaval passou a ser a maior festa popular do Brasil
+            </p>
+        </div>
+    </section>
+
+    <section class="section-content" id="museus">
+        <div class="museurj historydiv">
+            <h1>
+                Alguns museus importantes
+            </h1> 
+            <img class="historyimg" src="/assets/museunacionalrj.jpg" alt="">
+            <small>Museu Nacional/RJ antes do incêndio</small>
+            <p class="historyparagraph">
+                O <a href="http://www.museunacional.ufrj.br/dir/omuseu/omuseu.html#">Museu Nacional da UFRJ </a>tem mais de 200 anos, foi criado por D. João VI, em 06/07/1818. Como museu universitário, tem perfil academico e científico, cumprindo a finalidade de passar conhecimento nas áreas de ciências naturais e antropológicas. <br>
+                &nbsp; Destacava-se, em exposição, a coleção egípicia, considera a maior da América Latina, o mais antigo fóssil humano ja encontrado no país e entre outras exposições.
+            </p>
+
+            <img class="historyimg" src="/assets/museubelasartes.png" alt="">
+            <small>Museu Belas Artes/RJ</small>
+            <p class="historyparagraph">
+                Foi em 1808 Quando <a href="#">Dom João VI</a> chegou ao Brasil juntamente com a Família Real trazendo uma coleção de obras de artes das quais muitas permaneceram no país após seu regresso para Portugal. <br> 
+                &nbsp; O rei fundou no país a Escola Real de Ciências, Artes e Ofícios, somente  muitos anos depois foi criado em 13/01/1937 o <a href="#">Museu Nacional de Belas Artes</a>.
+                <br>
+                <button class="ver-mais">Ver Mais</button>
+            </p>
+
+            <img class="historyimg" src="/assets/museunavalrj.jpg" alt="">
+            <small>Museu Naval/RJ</small>
+            <p class="historyparagraph">
+                O <a href="https://www.marinha.mil.br/dphdm/museus/museu-naval">Museu Naval</a> é um espaço destinado à preservação da memória naval brasileira. Em seu acervo, se encontram diversos documentos que relatam a história da Marinha do Brasil. <br>
+                &nbsp; Construído em 1868 para servir de sede ao Clube Naval, atualmente é local expositivo, aberto ao público em 28/09/2006 na qual tem passeios educativos de diversas escolas.
+            </p>
+        </div>
+    </section>
+
     <div class="footer">
         <h3>Minhas redes Sociais</h3>
         <div class="social-icons">
@@ -184,6 +245,7 @@
     </div>
 
     <script src="/scripts/scripts.js"></script>
+    <script src="/scripts/scrollpage.js"></script>
 </body>     
 </html>
 
