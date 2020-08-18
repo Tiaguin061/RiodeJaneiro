@@ -1,4 +1,3 @@
-<h2 align="center">Rio de Janeiro</h2>
 
 ___
 
@@ -74,6 +73,6 @@ ___
 
 <h3 align="center">
 
-  <a href="https://www.linkedin.com/in/tiagogoncalves200428/">Linkedin</a>
+  <a href="https://www.linkedin.com/in/tiagogoncalves200428/">Linkedin</a>&nbsp;|&nbsp;
   <a href="https://www.instagram.com/tg001_xx/?hl=pt-br">Instagram</a>
 </h3>
