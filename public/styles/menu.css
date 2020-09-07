@@ -33,8 +33,17 @@
     font-size: 4em;
     position: absolute;
     cursor: pointer;
-    margin: 5% 0 0 85%;
+    margin: 5% 0 0 80%;
 } 
+
+#btn-close i {
+    color: white;
+    transition: 300ms;
+}
+
+#btn-close i:hover {
+    filter: brightness(80%);
+}
 
 #menu ul{
     height: 100%;
@@ -48,7 +57,7 @@
 #menu li {
     padding: 1.5%;
     border: 1px solid #60c8f8;
-    width: 10rem;
+    width: 12rem;
     text-align: center;
     margin: 1rem;
     border-radius: 6rem 6rem;
@@ -62,6 +71,6 @@
 }
 
 #menu li:hover {
-    box-shadow: 1px 1px 10px #60c8f8;
-    background-color: #2b8ab6;
+    filter: brightness(90%);
+    background: linear-gradient(to right, #0080bb, #77d4ff);
 }

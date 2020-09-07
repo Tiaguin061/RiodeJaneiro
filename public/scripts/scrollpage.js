@@ -1,10 +1,10 @@
 // Identificar o clique no menu
+const body = document.querySelector('body')
 const clickMenu = document.querySelectorAll('#nomodal a[href^="#]')
     clickMenu.forEach(verificItems => {
-    menu.style.display = 'none'
         verificItems.addEventListener('click', scrollToIdClick,
         menu.style.display = 'none'
-      )
+        )
     }) 
 
 const clickToBackHome = document.getElementById('toBackHome')
