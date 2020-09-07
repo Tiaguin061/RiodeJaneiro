@@ -1,7 +1,9 @@
 // Identificar o clique no menu
 const clickMenu = document.querySelectorAll('#nomodal a[href^="#]')
     clickMenu.forEach(verificItems => {
-        verificItems.addEventListener('click', scrollToIdClick
+    menu.style.display = 'none'
+        verificItems.addEventListener('click', scrollToIdClick,
+        menu.style.display = 'none'
       )
     }) 
 
@@ -10,7 +12,6 @@ const clickToBackHome = document.getElementById('toBackHome')
 
 // Após clicar em algum elemento <a> dentro do menu
 function scrollToIdClick (event) {
-    menu.style.display = 'none'
     divtobackhome.style.display = 'block'
 
     // tira o padrão
