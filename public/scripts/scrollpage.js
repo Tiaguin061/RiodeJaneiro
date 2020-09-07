@@ -1,7 +1,8 @@
 // Identificar o clique no menu
-const clickMenu = document.querySelectorAll('#nomodal a[href^="#')
+const clickMenu = document.querySelectorAll('#nomodal a[href^="#]')
     clickMenu.forEach(verificItems => {
-        verificItems.addEventListener('click', scrollToIdClick)
+        verificItems.addEventListener('click', scrollToIdClick
+      )
     }) 
 
 const clickToBackHome = document.getElementById('toBackHome')
@@ -11,6 +12,7 @@ const clickToBackHome = document.getElementById('toBackHome')
 function scrollToIdClick (event) {
     menu.style.display = 'none'
     divtobackhome.style.display = 'block'
+
     // tira o padrão
     event.preventDefault()
     // Quando clicar vai puxar o atributo href e mostrar a section
@@ -35,7 +37,6 @@ function scrollToPosition(to) {
 // Fará scroll suave
 // Caso deseje suporte a browsers antigos / que não suportam scroll smooth nativo
 /**
- * Smooth scroll animation
  * @param {int} endX: destination x coordinate
  * @param {int) endY: destination y coordinate
     * @param {int} duration: animation duration in ms

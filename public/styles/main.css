@@ -5,12 +5,13 @@
     list-style: none;
     text-decoration: none;
     outline: none;
+    box-sizing: border-box;
 }
 
-body {
-    height: 100vh;
+body,html {
+    height: 100%;
     font-family: Roboto, sans-serif;
-    background-color: rgb(223, 223, 223);
+    background-color: rgb(197, 197, 197);
     position: relative;
 }
 
@@ -20,7 +21,8 @@ h1 {
 
 small {
     font-weight: 300;
-    opacity: 0.7;
+    opacity: 0.8;
+
 }
 
 ::-webkit-scrollbar{
@@ -32,7 +34,7 @@ small {
 }
 
 ::-webkit-scrollbar-thumb {
-    background: #0080bb;
-    border-radius: 1rem;
+    background: #04aaf6;
+    border-radius: 0.5rem;
 }
 
